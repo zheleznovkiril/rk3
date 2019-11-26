@@ -27,7 +27,7 @@ INSERT INTO news VALUES
 
 2 задание
 
-USE news
+USE news;
 
 INSERT INTO news VALUES
 ('Main news of day', 'Podrobnosty budut pozje', '2018-01-01 10:10:10');
