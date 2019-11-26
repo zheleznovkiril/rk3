@@ -36,5 +36,5 @@ INSERT INTO news VALUES
 
 USE news;
 
-DELETE * FROM news WHERE
-name LIKE "O%" AND date < '2016-01-01 10:10:10'; 
+DELETE FROM news WHERE
+name LIKE "O%" AND date < '2016-01-01 10:10:10';
