@@ -6,10 +6,10 @@ CREATE DATABASE news;
 
 USE news;
 
-CREATE TABLE news VALUES(
-'name' VARCHAR(30) NOT NULL,
-'text' VARCHAR(30) NOT NULL, 
-'date' VARCHAR(19) NOT NULL
+CREATE TABLE news (
+`name` VARCHAR(30) NOT NULL,
+`text` VARCHAR(30) NOT NULL, 
+`date` VARCHAR(19) NOT NULL
 );
 
 INSERT INTO news VALUES
@@ -23,6 +23,7 @@ INSERT INTO news VALUES
 ('ac', 'qw', '1999-12-13 10:10:10'),
 ('one', 'one', '2012-12-12 10:10:10'),
 ('two', 'two', '1999-12-13 10:10:10');
+
 
 2 задание
 
